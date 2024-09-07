@@ -61,7 +61,9 @@ const AsyncCounter: React.FC = () => {
         <p className="text-info text-center">Loading...</p>
       )}
       {status === "failed" && (
-        <p className="text-danger text-center">Failed to update counter</p>
+        <p className="text-danger text-center">
+          Failed to update counter redux
+        </p>
       )}
     </>
   );
